@@ -1,0 +1,46 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.imageCover {
+    background-position: center;
+    background-image: url("../image/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 100px auto;
+    color: grey;
+}
+
+hr {
+    border-width: thick;
+    border-color: #f05f44;
+    width: 50px;
+    border-radius: 2px;
+    margin: 50px auto;
+}
+
+.btn {
+    width: 150px;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    margin: auto auto;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+.btn:hover {
+    background-color: azure;
+    color:black;
+    transition: 1s;
+    cursor: grabbing;
+    transform: scale(1.3);
+}
